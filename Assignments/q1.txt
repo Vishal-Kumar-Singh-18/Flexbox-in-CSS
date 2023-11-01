@@ -1,0 +1,31 @@
+Q1. Describe the main difference between CSS flexbox layout model and CSS grid layout box model. When would you choose to use one over the other?
+
+sol- 
+
+CSS Flexbox Layout Model:
+
+Flexbox is a one-dimensional layout method for laying out items in rows or columns. It provides an efficient way to distribute space and align items in a container, even when their size is unknown or dynamic. With flexbox, you can create complex layouts and align content within a container along the main axis (horizontal) and the cross axis (vertical) easily. Flexbox is well-suited for distributing space along a single axis, making it ideal for organizing items in a single row or column.
+
+CSS Grid Layout Box Model:
+
+CSS Grid Layout is a two-dimensional layout method for the web. It lets you layout items into rows and columns, providing precise control over both the rows and columns. Grid layout excels at creating complex layouts where items need to be placed both horizontally and vertically in relation to each other. It allows for the creation of grid tracks (rows and columns) and the placement of items into specific grid cells.
+
+Main Differences:
+
+- Dimensionality:
+  - Flexbox is one-dimensional, meaning it deals with layout in one direction at a time (either as a row or a column).
+  - Grid is two-dimensional, allowing you to handle rows and columns simultaneously.
+
+- Alignment:
+  - Flexbox is excellent for distributing space along a single axis, allowing for easy alignment of items in a row or a column.
+  - Grid layout allows you to create a precise layout on both the horizontal and vertical axes, enabling you to position items in specific rows and columns.
+
+When to Use Flexbox:
+
+Use flexbox when you need to create layouts along a single axis (either rows or columns). Flexbox is great for aligning items of unknown size within a container and distributing space along a single axis. For example, it's useful for navigation menus, form elements, or items within a sidebar.
+
+When to Use Grid Layout:
+
+Use grid layout when you need to create complex layouts with rows and columns. Grid is ideal for overall page layout structures, as well as for components that have a complex internal structure. It's perfect for creating magazine-style layouts, image galleries, or any other design where items need to be precisely positioned in both rows and columns.
+
+In many cases, you might even use both in combination: using flexbox within individual grid items to align their children along a single axis. This way, you can leverage the strengths of both layout models to create sophisticated and responsive web designs.
